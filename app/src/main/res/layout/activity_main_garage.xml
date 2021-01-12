@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/activityMain_TXT_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total time in the application:"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/activityMain_TXT_title"
+        android:id="@+id/activityMain_TXT_time"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/button"></Button>
+</RelativeLayout>

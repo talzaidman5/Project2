@@ -1,0 +1,4 @@
+include ':customers'
+include ':Module'
+include ':app'
+rootProject.name = "Project2"
